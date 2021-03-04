@@ -3,7 +3,7 @@ on: push
 jobs:
   build:
     name: First action test
-    if: github.ref == 'refs/heads/chronograph3r-patch-1'
+    if: github.ref == 'refs/heads/s18b'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
