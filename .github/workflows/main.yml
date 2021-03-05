@@ -1,8 +1,9 @@
 name: A workflow for my Hello World file
-on: push 
- branches:
-      - t12
-      - s**  
+on:
+  push:
+    branches:    
+    - 's**'
+    - '!t**'
 jobs:
   build:
     name: First action test
