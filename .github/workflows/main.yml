@@ -1,6 +1,6 @@
 name: A workflow for my Hello World file
 on: push
-branches:
+ branches:
       - main
       - s**
       - t1*
