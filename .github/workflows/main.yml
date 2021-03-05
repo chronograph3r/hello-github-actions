@@ -1,14 +1,11 @@
 name: A workflow for my Hello World file
-on: push
+on: push 
  branches:
-      - main
-      - s**
-      - t1*
-      - release
+      - t12
+      - s**  
 jobs:
   build:
     name: First action test
-    if: github.ref != 'refs/heads/t1*'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
