@@ -2,9 +2,12 @@ name: A workflow for my Hello World file
 on:
   push:
     branches:    
-    - "master"
-    - "s19a"
+    - "s*"
     - "tez"
+    paths:
+      - VERSION
+    tags:
+      - v*
 jobs:
   build:
     name: First action test
